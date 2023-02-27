@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T22:56:36.071Z" agent="5.0 (Windows)" etag="X8FOQ2wwwv8TSl9Ju27L" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T23:02:24.652Z" agent="5.0 (Windows)" etag="4mL9CR6ZgnshTv99oc2v" version="20.8.23" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1330" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1531" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="17acba5748e5396b-1" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="30" width="820" height="1060" as="geometry" />
-        </mxCell>
         <mxCell id="5d2195bd80daf111-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startFill=0;endArrow=open;endFill=0;endSize=10;fontFamily=Verdana;fontSize=10;" parent="1" source="17acba5748e5396b-2" target="5d2195bd80daf111-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
@@ -158,6 +155,24 @@
         </mxCell>
         <mxCell id="W4gs8_7KVZacax8HziNK-24" value="&lt;div&gt;+Enrollment()&lt;/div&gt;&lt;div&gt;+remove(EnrollStudent enrollStudent): void&lt;/div&gt;&lt;div&gt;+add(EnrollStudent student): boolean&lt;/div&gt;&lt;div&gt;+grow(): void&lt;/div&gt;&lt;div&gt;+find(EnrollStudent student): int&lt;/div&gt;&lt;div&gt;+contains(EnrollStudent enrollStudent): boolean&lt;/div&gt;&lt;div&gt;+getEnrollStudent(EnrollStudent enrollStudent): EnrollStudent&lt;/div&gt;&lt;div&gt;+print(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="W4gs8_7KVZacax8HziNK-22">
           <mxGeometry y="80" width="183.87" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="W4gs8_7KVZacax8HziNK-25" value="&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="770" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="W4gs8_7KVZacax8HziNK-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="10" y="140" width="820" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="17acba5748e5396b-1" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="W4gs8_7KVZacax8HziNK-30" vertex="1">
+          <mxGeometry x="-10" y="-140" width="820" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="W4gs8_7KVZacax8HziNK-31" value="" style="group" vertex="1" connectable="0" parent="W4gs8_7KVZacax8HziNK-30">
+          <mxGeometry x="100" y="640" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="W4gs8_7KVZacax8HziNK-26" value="Enroll Student" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="W4gs8_7KVZacax8HziNK-31">
+          <mxGeometry width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W4gs8_7KVZacax8HziNK-29" value="&lt;div&gt;-profile: Profile&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="W4gs8_7KVZacax8HziNK-31">
+          <mxGeometry y="30" width="150" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
